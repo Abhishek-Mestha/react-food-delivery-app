@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.logo{
+  height: 50px;
+  width: auto;
+}
+
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #E63946;
+  border: 2px solid black;
+  border-radius: 12px;
+  padding: 0.5% 5%;
+  width: 80%;            
+  max-width: 1200px;     
+  margin: 20px auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  gap: 20px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/*Resturant Card */
+
+.res-card{
+  width: 100%;                           
+  border: 1px solid black;
+  border-radius: 12px;
+  padding: 10px;
+  background-color: #fff;
+}
+
+#heading-res {
+  margin-top: 5px;
+  font-size: 24px;
+}
+
+.res-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 20px ;                             
+  width: 100%;
+  max-width: 1200px;                     
+  margin: 20px auto;
+}
+
+.res-container:hover{
+  cursor: pointer;
+}
+
+.dosa-image{
+ width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
